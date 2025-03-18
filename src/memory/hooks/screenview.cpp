@@ -11,6 +11,7 @@ void selaura_hooks::ScreenView_SetupAndRender(void* a1, void* a2) {
 	else {
 		count += 1;
 	}*/
+	//
 
 	reinterpret_cast<void(*)(void*, void*)>(trampoline)(a1, a2);
 }
